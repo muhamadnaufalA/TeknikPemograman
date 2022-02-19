@@ -3,6 +3,7 @@ package soal7;
 /**
  *
  * @author GHANI
+ * Program ini bertujuan untuk menampilkan array tiga dimensi
  */
 public class MDArrayJava
 {
@@ -46,3 +47,10 @@ public class MDArrayJava
     }
   }
 }
+
+// Lesson Learn //
+
+/* Lesson learn yang saya dapatkan pada saat mengerjakan soal ini adalah
+ * saya jadi lebih paham bagaimana penggunaan array di bahasa java, lalu
+ * saya jadi tahu bagainaman cara menampilkan dan mengolah array 3 dimensi
+ */
