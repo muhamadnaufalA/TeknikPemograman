@@ -4,17 +4,18 @@ import java.util.Scanner;
 /**
  *
  * @author GHANI
+ * Program ini bertujuan untuk menghitung gaji agent perbulan berdasarkan jumlah penjualan yang telah ia berhasil lakukan
  */
 public class Soal4 {
 
     public static void main(String[] args) {
         // data fields //
         Scanner keyboard = new Scanner(System.in);
-        int gaji=500000;
-        int bonus;
-        int nPenjualan;
-        int banyakMinusPenjualan;
-        int pemotongan;
+        int gaji=500000; // inisialisasi gaji pokok perbulan
+        int bonus; // bonus yang diterima
+        int nPenjualan; // banyak penjualan yang berhasil di jual
+        int banyakMinusPenjualan; // jumlah produl yang tidak berhasil sesuai targer perbulan
+        int pemotongan; // jumlah pemotongan gaji
         
         // behavior //
         nPenjualan = keyboard.nextInt();
@@ -34,3 +35,8 @@ public class Soal4 {
     }
     
 }
+
+// Lesson Learn //
+/* Lesson learn yang saya dapatkan dalam mengerjakan soal ini adalah
+ * saya jadi tau bahwa angka integer tidak bisa dioperasikan dengan angka decimal
+ * /
