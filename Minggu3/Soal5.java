@@ -37,9 +37,9 @@ public class Soal5 {
        angka = angka.divide(pembagian);
        angka = angka.remainder(modulo);
        if (angka.compareTo(NOL) == 0){
-           System.out.println ("jalan");
-       }else {
            System.out.println ("berhenti");
+       }else {
+           System.out.println ("jalan");
        }
     }
     
