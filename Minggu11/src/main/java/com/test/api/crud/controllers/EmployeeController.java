@@ -62,7 +62,7 @@ public class EmployeeController {
 		}
 		String message;
 		if (listEmployeeDto.isEmpty()) {
-			message = "Data is sudah tidak ada";
+			message = "Data sudah tidak ada";
 		}else {
 			message = "Show All Data";
 		}
