@@ -109,7 +109,7 @@ class EngineerRoles {
                   System.out.println("Data Ops help setup the data infrastructure, help handle code deployment, setup data quality checks and alerting & monitoring for the different flows.");
                   break;
                 default:
-                  assert true: EngRole + " is invalid engineer role";
+                  assert false: EngRole + " is invalid engineer role";
             }
         }catch(AssertionError e){
             System.out.println(EngRole + "is invalid engineer role");
@@ -142,7 +142,7 @@ class ResearcherRoles {
                   System.out.println("Economists work on leveraging data and economic theory for the good of companies. That can involve designing auction systems for ads, or working on predicting economic trends for risk assessment and capital allocation.");
                   break;
                 default:
-                  assert true: ResRole + " is invalid research role";
+                  assert false: ResRole + " is invalid research role";
             }
         }catch(AssertionError e){
             System.out.println(ResRole + " is invalid research role");
